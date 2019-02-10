@@ -1,10 +1,10 @@
 const renderer = new Renderer()
 let board;
 const getIconFuch = () => {
-    $(".D").find("i").remove(); $(".D").wrapInner(`<i class="fas fa-frogs"></i>`);
-    $(".1").find("i").remove(); $(".1").wrapInner(`<i class="fas fa-meh"></i>`);
-    $(".2").find("i").remove(); $(".2").wrapInner(`<i class="far fa-smile"></i>`);
-    $(".C").find("i").remove(); $(".C").wrapInner(`<i class="fas fa-apple-alt"></i>`);
+    $(".D").find("i").remove(); $(".D").wrapInner(`<i class="far"></i>`);
+    $(".1").find("i").remove(); $(".1").wrapInner(`<i class="far fa-grin-squint fa-2x"></i>`);
+    $(".2").find("i").remove(); $(".2").wrapInner(`<i class="far fa-laugh-beam fa-2x"></i>`);
+    $(".C").find("i").remove(); $(".C").wrapInner(`<i class="fas fa-circle"></i>`);
     $(".B").find("i").remove(); $(".B").wrapInner(`<i id="B"></i>`);
 }
 const startGame = () => {
